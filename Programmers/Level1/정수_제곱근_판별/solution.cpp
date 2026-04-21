@@ -7,7 +7,7 @@ long long solution(long long n)
 {
     long long answer = -1;
     
-    for(long long i = 1; i * i <=n; i++)
+    for(long long i = 1; i * i <= n; i++)
     {
         if(i * i == n)
         {
